@@ -1,4 +1,4 @@
-package com.amy.test;
+package com.amy.sort;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

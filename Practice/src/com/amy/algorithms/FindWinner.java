@@ -1,7 +1,9 @@
+package com.amy.algorithms;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindWinner extends Test{
+public class FindWinner{
 	public static void findWinner(String votes[])
     {
         // Insert all votes in a hashmap

@@ -10,12 +10,12 @@ import java.util.List;
 
 
 public class TestSortings {
-	int input[]={6,3,8,9,12,11};
-	int expected[]={3,6,8,9,11,12};
+	
 	@Test
 	public void testBubbleSort()
 	{
-		
+		int input[]={6,3,8,9,12,11};
+		int expected[]={3,6,8,9,11,12};
 		boolean numberSwitched;
 		do{
 			numberSwitched=false;

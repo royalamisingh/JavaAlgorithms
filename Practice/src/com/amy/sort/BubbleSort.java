@@ -11,19 +11,9 @@ public class BubbleSort {
 	public static void main(String[] args) {
 		int x[] = { 34, 23, 1, 2, 9, 34, 56 };
 		BubbleSort b = new BubbleSort();
-		b.printArray(x);
+		SortUtils.printArray(x);
 		b.bubbleSort(x);
-		b.printArray(x);
-	}
-
-	public void printArray(int x[]) {
-		System.out.println("---------Printing-----------");
-		for (int i = 0; i < x.length; i++) {
-
-			System.out.println("| " + i + "| " + x[i] + "|");
-
-		}
-		System.out.println("---------PrintingEnd---------");
+		SortUtils.printArray(x);
 	}
 
 	public void bubbleSort(int x[]) {
